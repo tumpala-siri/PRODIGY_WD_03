@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Tic Tae Toe game</title>
+</head>
+<body>
+   <h1 id = " head">Tic Tae Toe game</h1> 
+   <p class="para">🫶lets play together🤝</p>
+    <div class="whole">
+
+        <div class = "players">
+
+            <div class = "x">
+                <h3 class = "play_number">player 1</h3>
+                <p class = 'symbol'>'X'</p>
+            </div>
+
+            <div class = "o">
+                <h3 class = "play_number">player 2</h3>
+                <p class = 'symbol'>'O'</p>
+
+            </div>
+        </div>
+
+        <div id="current-turn">Current Turn: X</div>
+
+
+        <div class="playboard" >
+            <div class="btn-board">
+                <button class="board__cell" data-cell-index="0"></button>
+                <button class="board__cell" data-cell-index="1"></button>
+                <button class="board__cell" data-cell-index="2"></button>
+                <button class="board__cell" data-cell-index="3"></button>
+                <button class="board__cell" data-cell-index="4"></button>
+                <button class="board__cell" data-cell-index="5"></button>
+                <button class="board__cell" data-cell-index="6"></button>
+                <button class="board__cell" data-cell-index="7"></button>
+                <button class="board__cell" data-cell-index="8"></button>
+            </div>
+
+        </div>
+        <!--restart button-->
+        <button id="restart">Restart Game</button>
+
+        <!--pop menu-->
+
+        <div class="hide" id="popup">
+            <p id="message"></p>
+            
+        </div>
+            
+    </div>
+
+<script src="game.js"></script>
+
+
+</body>
+</html>
